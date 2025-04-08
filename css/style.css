@@ -1,0 +1,59 @@
+.active {
+  color: #009ad8 !important;
+  border: #009ad8 2px solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.nav-link {
+  padding: 0, 60px;
+  box-sizing: border-box;
+  border: transparent 2px solid;
+  border-radius: 20px;
+}
+
+.nav-link:hover {
+  color: #009ad8 !important;
+  border: #009ad8 2px solid;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #262936;
+}
+
+footer p {
+  color: gray;
+}
+
+input::placeholder {
+  color: gray !important;
+}
+
+.hero {
+  background-image: url(../images/banner.png);
+  min-height: 350px;
+  background-size: cover;
+}
+
+.forecast-container {
+  position: relative;
+  top: -200px;
+}
+
+.card-body {
+  background-color: #323544;
+  height: 400px;
+}
+
+.card-header {
+  background-color: #2d303d;
+}
+
+.tomorrow .card-body {
+  background-color: #222530;
+}
+
+.tomorrow .card-header {
+  background-color: #262936;
+}

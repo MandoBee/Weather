@@ -1,0 +1,271 @@
+/************* Mobile First Design *******************/
+/************* Small To Big ===> Min-Width *******************/
+
+/************* SM *******************/
+@media screen and (min-width: 640px) {
+  .sm_100 {
+    width: 100%;
+  }
+
+  .sm_50 {
+    width: 50%;
+  }
+
+  .sm_33 {
+    width: 33.333333%;
+  }
+
+  .sm_25 {
+    width: 25%;
+  }
+
+  .sm_20 {
+    width: 20%;
+  }
+
+  .sm_16 {
+    width: 16.666666%;
+  }
+}
+
+/************* MD *******************/
+@media screen and (min-width: 768px) {
+  .md_100 {
+    width: 100%;
+  }
+
+  .md_50 {
+    width: 50%;
+  }
+
+  .md_33 {
+    width: 33.333333%;
+  }
+
+  .md_25 {
+    width: 25%;
+  }
+
+  .md_20 {
+    width: 20%;
+  }
+
+  .md_16 {
+    width: 16.666666%;
+  }
+}
+
+/************* LG *******************/
+@media screen and (min-width: 1024px) {
+  nav {
+    padding-left: 8rem;
+  }
+
+  .navHead ul {
+    width: 20%;
+    top: 0;
+    right: 40%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
+  .links {
+    display: block;
+  }
+
+  .menuBars {
+    display: none;
+  }
+
+  .menuBars:hover + .links {
+    display: none;
+  }
+
+  .links:hover {
+    display: flex;
+  }
+
+  .links li:hover {
+    text-decoration: underline red 4px;
+  }
+
+  /* ************************************* */
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 1.5rem;
+  }
+
+  .headerSec {
+    background-color: #eeeeee;
+    min-height: 60vh;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5.9375rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 100vh;
+  }
+
+  .btnGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1rem;
+  }
+
+  .headerSec .headerImg {
+    width: 60vh;
+  }
+
+  .booking {
+    padding: 10px;
+    width: 20%;
+    border: 5px hsl(0, 84%, 44%) solid;
+    background-color: hsl(0, 84%, 44%);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  .headerTxt {
+    text-align: left;
+  }
+
+  .gallaryPics {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    position: relative;
+    height: 80rem;
+  }
+
+  .gallaryPics .itemPic:nth-child(1) {
+    order: 1;
+    flex-shrink: 1;
+  }
+
+  .gallaryPics .itemPic:nth-child(2) {
+    order: 3;
+    flex-shrink: 1;
+  }
+
+  .gallaryPics .itemPic:nth-child(3) {
+    order: 5;
+    flex-shrink: 1;
+  }
+
+  .gallaryPics .itemPic:nth-child(4) {
+    order: 2;
+    flex-shrink: 1;
+  }
+
+  .gallaryPics .itemPic:nth-child(5) {
+    order: 6;
+    flex-shrink: 1;
+  }
+
+  .gallaryPics .itemPic:nth-child(6) {
+    order: 7;
+    flex-shrink: 1;
+  }
+
+  .gallaryPics .itemPic:nth-child(7) {
+    order: 4;
+    flex-shrink: 1;
+  }
+
+  .contactDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+
+  .contDetail {
+    flex: 45%;
+  }
+
+  .inputGroup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+  }
+
+  .inputGroup * {
+    flex: 45%;
+  }
+
+  .quickLinks ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 7rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .lg_100 {
+    width: 100%;
+  }
+
+  .lg_50 {
+    width: 50%;
+  }
+
+  .lg_33 {
+    width: 32%;
+  }
+
+  .lg_25 {
+    width: 25%;
+  }
+
+  .lg_20 {
+    width: 20%;
+  }
+
+  .lg_16 {
+    width: 16.666666%;
+  }
+}
+
+/************* XL
+******************@media screen and (min-width:1280px) {
+    .xl_100 {
+        width: 100%;
+    }
+
+    .xl_50 {
+        width: 50%;
+    }
+
+    .xl_33 {
+        width: 33.333333%;
+    }
+
+    .xl_25 {
+        width: 25%;
+    }
+
+    .xl_20 {
+        width: 20%;
+    }
+
+    .xl_16 {
+        width: 16.666666%;
+    }
+}*/
